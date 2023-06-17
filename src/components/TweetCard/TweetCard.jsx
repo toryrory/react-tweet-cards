@@ -29,7 +29,7 @@ const TweetCard = ({ followers, avatar, tweets, id }) => {
     subscription
       ? setFollowersQuantity((prevState) => prevState + 1)
       : setFollowersQuantity((prevState) => prevState - 1);
-  }, [subscription]);
+  }, [isMount, subscription]);
 
   useEffect(() => {
     if (isMount) {
@@ -42,7 +42,7 @@ const TweetCard = ({ followers, avatar, tweets, id }) => {
       JSON.stringify(followersQuantity)
     );
    
-  }, [subscription, followersQuantity]);
+  }, [subscription, followersQuantity, isMount, id]);
 
   return (
     <Container>
