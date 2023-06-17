@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-tweet-cards/static/css/main.e6c13ad2.css",
+    "main.js": "/react-tweet-cards/static/js/main.dfb6eb82.js",
+    "static/media/dialog.png": "/react-tweet-cards/static/media/dialog.38ea3189a2c780f4bbbf.png",
+    "index.html": "/react-tweet-cards/index.html",
+    "main.e6c13ad2.css.map": "/react-tweet-cards/static/css/main.e6c13ad2.css.map",
+    "main.dfb6eb82.js.map": "/react-tweet-cards/static/js/main.dfb6eb82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.dfb6eb82.js"
+  ]
+}
