@@ -56,4 +56,5 @@ export const Button = styled.button`
 `;
 export const StyledLink = styled(Link)`
 text-decoration: none;
+display: contents;
 `

@@ -11,11 +11,8 @@ const TweetCardGallery = () => {
   const [tweets, setTweets] = useState([]);
   const [page, setPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
-  // let initialized = true;
 
   useEffect(() => {
-    // if (initialized) {
-    //   initialized = false;
 
       const fetchData = async () => {
         const params = new URLSearchParams({
@@ -32,7 +29,6 @@ const TweetCardGallery = () => {
         } finally {
           setIsLoading(false);
         }
-      // };
 
       
     }

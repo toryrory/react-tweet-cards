@@ -1,14 +1,3 @@
-## Project Description
-This project implements the display of tweet owners and their general information in the form of cards. The cards are interactive, the user can follow or unfollow the owner's tweets.
-The project has routing across multiple pages, pagination using a button, and a button to return to the main page. For navigation, it is used a template that wraps each page.
-Information about the owners of tweets is used from the mockapi.io UI-service
-The following libraries are involved in the project:
-- axios
-- react-router-dom
-- react-loader-spinner
-- react-icons
-- styled-components
-
 This project was created with
 [Create React App](https://github.com/facebook/create-react-app). To get
 acquainted and configure additional features
